@@ -1,0 +1,25 @@
+{
+    "cred": {
+        "src": {
+            "database": "bank",
+            "host": "",
+            "user": "user",
+            "password": "password",
+            "port": "5432"
+        },
+        "dwh": {
+            "database": "edu",
+            "host": "",
+            "user": "user",
+            "password": "password",
+            "port": "5432"
+        }
+    },
+    "debug": false,
+    "show_stg_insert_count": true,
+    "generate_sql": false,
+    "show_sql_and_exit": false,
+    "use_static_sql_only": true,
+    "do_not_move_to_archive": false
+
+}
